@@ -1,0 +1,40 @@
+server:
+  port: 8090
+
+spring:
+  main:
+    web-application-type: none
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://36.151.145.166:15432/ai-rag-knowledge?sslmode=disable&connectTimeout=30&socketTimeout=30
+    type: com.zaxxer.hikari.HikariDataSource
+  ai:
+    openai:
+      # Spring AI 1.0.0-M6 will append /v1/chat/completions and /v1/embeddings.
+      # Keep only the provider root here; do not include a trailing /v1.
+      base-url: https://api.edgefn.net
+      api-key: sk-3PYPl1CmJbf3HXmAEfD611D8C7E14e968c70108c20144c39
+      chat:
+        options:
+          model: MiniMax-M2.5
+      embedding-model: BAAI/bge-m3
+      embedding:
+        options:
+          model: BAAI/bge-m3
+    ollama:
+      base-url: http://localhost:11434
+      mode: local
+      chat:
+        options:
+          model: deepseek-r1:1.5b
+      embedding-model: nomic-embed-text
+      embedding:
+        options:
+          num-batch: 768
+
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
