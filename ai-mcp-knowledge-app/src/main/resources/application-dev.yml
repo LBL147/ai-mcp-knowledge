@@ -11,6 +11,11 @@ spring:
     url: jdbc:postgresql://36.151.145.166:15432/ai-rag-knowledge?sslmode=disable&connectTimeout=30&socketTimeout=30
     type: com.zaxxer.hikari.HikariDataSource
   ai:
+    mcp:
+      client:
+        request-timeout: 360s
+        stdio:
+          servers-configuration: classpath:/config/mcp-servers-config.json
     openai:
       # Spring AI 1.0.0-M6 will append /v1/chat/completions and /v1/embeddings.
       # Keep only the provider root here; do not include a trailing /v1.

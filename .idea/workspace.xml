@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf4ca3ab-5f91-43cc-b2bc-f06af477ed63" name="Changes" comment="" />
+    <list default="true" id="bf4ca3ab-5f91-43cc-b2bc-f06af477ed63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-knowledge-app/src/main/resources/config/mcp-servers-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai-mcp-knowledge-app/src/test/java/cn/bugstack/knowledge/test/MCPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-knowledge-app/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-knowledge-app/data/log/log_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-knowledge-app/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-knowledge-app/data/log/log_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-knowledge-app/src/main/java/cn/bugstack/knowledge/config/OpenAIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-knowledge-app/src/main/java/cn/bugstack/knowledge/config/OpenAIConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-knowledge-app/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-knowledge-app/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-knowledge-app/src/test/java/cn/bugstack/knowledge/test/OpenAiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-knowledge-app/src/test/java/cn/bugstack/knowledge/test/OpenAiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-knowledge-app/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-knowledge-app/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-knowledge-app/target/classes/cn/bugstack/knowledge/config/OpenAIConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-knowledge-app/target/classes/cn/bugstack/knowledge/config/OpenAIConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-mcp-knowledge-app/target/test-classes/cn/bugstack/knowledge/test/OpenAiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ai-mcp-knowledge-app/target/test-classes/cn/bugstack/knowledge/test/OpenAiTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,8 +61,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/work/ai-mcp-knowledge",
+    "git-widget-placeholder": "1-upgrade-project",
+    "last_opened_file_path": "C:/work/ai-mcp-knowledge/ai-mcp-knowledge-app/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,12 +78,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\ai-mcp-knowledge\ai-mcp-knowledge-app\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\ai-mcp-knowledge" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OpenAiTest.chat">
-    <configuration name="OllamaTest.test_stream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MCPTest.test">
+    <configuration name="MCPTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ai-mcp-knowledge-app" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +95,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.bugstack.knowledge.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.bugstack.knowledge.test.OllamaTest" />
-      <option name="METHOD_NAME" value="test_stream" />
+      <option name="MAIN_CLASS_NAME" value="cn.bugstack.knowledge.test.MCPTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MCPTest.test_tool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ai-mcp-knowledge-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.bugstack.knowledge.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.bugstack.knowledge.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.bugstack.knowledge.test.MCPTest" />
+      <option name="METHOD_NAME" value="test_tool" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,22 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenAiTest.test_call_images" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ai-mcp-knowledge-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.bugstack.knowledge.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.bugstack.knowledge.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.bugstack.knowledge.test.OpenAiTest" />
-      <option name="METHOD_NAME" value="test_call_images" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OpenAiTest.upload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ai-mcp-knowledge-app" />
       <extension name="coverage">
@@ -142,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OpenAiTest.chat" />
         <item itemvalue="JUnit.OpenAiTest.upload" />
+        <item itemvalue="JUnit.OpenAiTest.chat" />
         <item itemvalue="JUnit.OllamaTest.upload" />
-        <item itemvalue="JUnit.OpenAiTest.test_call_images" />
-        <item itemvalue="JUnit.OllamaTest.test_stream" />
+        <item itemvalue="JUnit.MCPTest.test_tool" />
+        <item itemvalue="JUnit.MCPTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +192,9 @@
       <option name="presentableId" value="Default" />
       <updated>1773798139131</updated>
       <workItem from="1773798140179" duration="3858000" />
-      <workItem from="1773806802419" duration="8851000" />
+      <workItem from="1773806802419" duration="9359000" />
+      <workItem from="1773825767342" duration="850000" />
+      <workItem from="1773899053311" duration="4980000" />
     </task>
     <servers />
   </component>

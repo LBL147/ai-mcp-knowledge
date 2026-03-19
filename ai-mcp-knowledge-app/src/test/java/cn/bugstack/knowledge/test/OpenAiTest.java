@@ -107,7 +107,7 @@ public class OpenAiTest {
         documents.forEach(doc -> doc.getMetadata().put("knowledge", "知识库名称v2"));
         documentSplitterList.forEach(doc -> doc.getMetadata().put("knowledge", "知识库名称v2"));
 
-//        pgVectorStore.accept(documentSplitterList);
+        pgVectorStore.accept(documentSplitterList);
 
         log.info("上传完成");
     }
